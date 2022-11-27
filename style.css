@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    height: 50px;
+    padding: 0 300px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo{
+    font-family: 'Kaushan Script', cursive;
+}
+
+header .search-bar{
+    position: relative;
+}
+
+header .search-bar input{
+    width: 200px;
+    height: 33px;
+    border-radius: 5px;
+    border: none;
+    background-color: #efefef;
+    padding: 0 10px 0 35px;
+    outline: none;
+}
+
+header .search-bar input::placeholder{
+    color: #000;
+}
+
+header .search-bar ion-icon{
+    position: absolute;
+    left: 10px;
+    top: 7.5px;
+}
+
+header .menu-icons ion-icon{
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+.container{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.left-container{
+    width: 19.85%;
+    margin-left: 350px;
+    
+}
+
+.reels-container{
+    margin-bottom: 50px;
+    border: 1px solid #E3E1DF;
+    border-radius: 10px;
+}
+
+.container .reels-profile{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+}
+
+.container .user-profile{
+    display: flex;
+}
+
+.container .user-profile ion-icon,
+.container .user-profile h4{
+    margin: 0 5px;
+}
+
+.container .reels-profile div:last-child{
+    font-size: 25px;
+}
+
+.container .reels-profile ion-icon{
+    margin-top: 3.5px;
+}
+
+.reels img{
+    width: 300px;
+    height: 400px;
+}
+
+.like-comment-share{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.like-comment-share ion-icon{
+    font-size: 20px;
+}
+
+.right-container{
+    width: 30%;
+    margin-right: 350px;
+}
+
+.right-container .user-login{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+.right-container .user-login ion-icon{
+    font-size: 30px;
+}
+
+.right-container .user-login ion-icon,
+.right-container .user-login .user-name{
+    padding: 0 5px;
+}
+
+.right-container .user-login ion-icon{
+    margin-top: 7px;
+}
+
+.right-container div:first-child{
+    display: flex;
+}
